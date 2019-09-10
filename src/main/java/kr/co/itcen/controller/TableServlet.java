@@ -20,7 +20,7 @@ public class TableServlet extends HttpServlet {
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
-		
+		 
 		out.println("<table border='1' cellspacing='0' cellpadding='2'>");
 		for(int i =0; i<nRow;i++) {
 			out.println("<tr>");
